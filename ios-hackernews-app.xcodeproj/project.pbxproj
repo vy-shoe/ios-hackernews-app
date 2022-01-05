@@ -29,6 +29,12 @@
 		74D77562278536DD0020006F /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D77560278536DD0020006F /* Results.swift */; };
 		74D77563278536DD0020006F /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D77560278536DD0020006F /* Results.swift */; };
 		74D77564278536DD0020006F /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D77560278536DD0020006F /* Results.swift */; };
+		74D7757027853E390020006F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EB2CE2783D31100F58EE1 /* ContentView.swift */; };
+		74D7757127853E390020006F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EB2CE2783D31100F58EE1 /* ContentView.swift */; };
+		74D7757327853E6E0020006F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D7757227853E6E0020006F /* DetailView.swift */; };
+		74D7757427853E6E0020006F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D7757227853E6E0020006F /* DetailView.swift */; };
+		74D7757527853E6E0020006F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D7757227853E6E0020006F /* DetailView.swift */; };
+		74D7757627853E6E0020006F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D7757227853E6E0020006F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,7 @@
 		744EB3092783D34600F58EE1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		74D7755B2784E5DE0020006F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		74D77560278536DD0020006F /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		74D7757227853E6E0020006F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +120,9 @@
 		744EB2CC2783D31100F58EE1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				74D7756527853DEF0020006F /* Views */,
 				74D7755A2784E5C80020006F /* Models */,
 				744EB2CD2783D31100F58EE1 /* ios_hackernews_appApp.swift */,
-				744EB2CE2783D31100F58EE1 /* ContentView.swift */,
 				744EB2CF2783D31200F58EE1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -165,6 +172,15 @@
 				74D77560278536DD0020006F /* Results.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		74D7756527853DEF0020006F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				744EB2CE2783D31100F58EE1 /* ContentView.swift */,
+				74D7757227853E6E0020006F /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +348,7 @@
 				74D7755C2784E5DE0020006F /* NetworkManager.swift in Sources */,
 				744EB2F72783D31200F58EE1 /* ContentView.swift in Sources */,
 				74D77561278536DD0020006F /* Results.swift in Sources */,
+				74D7757327853E6E0020006F /* DetailView.swift in Sources */,
 				744EB2F52783D31200F58EE1 /* ios_hackernews_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +360,7 @@
 				74D7755D2784E5DE0020006F /* NetworkManager.swift in Sources */,
 				744EB2F82783D31200F58EE1 /* ContentView.swift in Sources */,
 				74D77562278536DD0020006F /* Results.swift in Sources */,
+				74D7757427853E6E0020006F /* DetailView.swift in Sources */,
 				744EB2F62783D31200F58EE1 /* ios_hackernews_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +370,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D7755E2784E5DE0020006F /* NetworkManager.swift in Sources */,
+				74D7757527853E6E0020006F /* DetailView.swift in Sources */,
 				744EB2E82783D31200F58EE1 /* Tests_iOSLaunchTests.swift in Sources */,
+				74D7757027853E390020006F /* ContentView.swift in Sources */,
 				74D77563278536DD0020006F /* Results.swift in Sources */,
 				744EB2E62783D31200F58EE1 /* Tests_iOS.swift in Sources */,
 			);
@@ -363,7 +383,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D7755F2784E5DE0020006F /* NetworkManager.swift in Sources */,
+				74D7757627853E6E0020006F /* DetailView.swift in Sources */,
 				744EB2F42783D31200F58EE1 /* Tests_macOSLaunchTests.swift in Sources */,
+				74D7757127853E390020006F /* ContentView.swift in Sources */,
 				74D77564278536DD0020006F /* Results.swift in Sources */,
 				744EB2F22783D31200F58EE1 /* Tests_macOS.swift in Sources */,
 			);
